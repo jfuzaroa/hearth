@@ -1,0 +1,61 @@
+html {
+        font-family: 'Source Sans 3', sans-serif;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+}
+
+header.fixed {
+    position: sticky;
+    top: 0;
+}
+
+header span {
+    padding: 3rem
+}
+
+main {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+}
+
+a:visited, a:link, address {
+    color: inherit;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a:hover {
+    color: #06f;
+}
+
+.contact_item {
+    text-align: center;
+}
+
+.about {
+    width: 75%;
+}
+
+.logs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.log {
+    width: 75%;
+    border-top: 2px solid #06f;
+    border-bottom: 2px solid #06f;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
